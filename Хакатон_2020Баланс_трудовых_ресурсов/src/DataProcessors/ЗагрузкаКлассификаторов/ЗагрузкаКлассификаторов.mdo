@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5e60cf8-fe2b-4e4f-b6b7-5a278932ee2b">
+  <producedTypes>
+    <objectType typeId="0a640c9e-19ca-44f9-afc1-086089d4e710" valueTypeId="653b415d-41e9-4872-adc4-09e11c1e5bf4"/>
+    <managerType typeId="1e6ccc04-0c1e-44a9-95ab-a474faf65517" valueTypeId="0b14ee97-a648-45ae-803f-1d087cc9fcf2"/>
+  </producedTypes>
+  <name>ЗагрузкаКлассификаторов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка классификаторов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКлассификаторов.Form.Форма</defaultForm>
+  <forms uuid="ed1368d6-0bdb-4819-aa24-8f66d9d1b77b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="599639a4-f183-4723-8b8d-80c7e003571a">
+    <name>КлассификаторОКПДТРДолжности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор ОКПДТР должности</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

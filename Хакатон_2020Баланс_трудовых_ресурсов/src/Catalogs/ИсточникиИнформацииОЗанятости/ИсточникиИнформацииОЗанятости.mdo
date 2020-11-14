@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="522d5787-4492-41a1-8083-385daf75814a">
+  <producedTypes>
+    <objectType typeId="29014e2c-ab55-4997-8918-273a43d382e0" valueTypeId="e900c876-227b-4d2e-a6d7-6ded8e79d186"/>
+    <refType typeId="9e6d6756-97a1-4052-865c-5dc54b45f30d" valueTypeId="b6f8570c-b2e9-4379-9d52-dd6477e91f9b"/>
+    <selectionType typeId="3dcf389f-5a32-491b-a63c-370a4f8a0a5f" valueTypeId="76bb4fde-36d0-441c-bfa8-3586dc71402b"/>
+    <listType typeId="f33d4174-a470-46e1-93a5-280f0ef6c07c" valueTypeId="be6ffa3a-e99a-4c66-bbef-75d0f0e8c281"/>
+    <managerType typeId="4f7b814b-c3b3-4974-b4a0-f13fac0586af" valueTypeId="72f9093f-dba4-4759-aaff-0d13fb2bd18b"/>
+  </producedTypes>
+  <name>ИсточникиИнформацииОЗанятости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники информации о занятости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсточникиИнформацииОЗанятости.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникиИнформацииОЗанятости.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c0a8cdf6-e902-421d-ae3d-30734f2b5d47">
+      <name>БюроПоТрудоустройствуНаселения</name>
+      <description>Бюро по трудоустройству населения</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

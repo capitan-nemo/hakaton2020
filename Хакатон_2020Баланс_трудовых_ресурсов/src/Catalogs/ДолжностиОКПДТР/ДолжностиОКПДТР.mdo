@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c16d1632-a4c9-448b-93e7-78ef3ea2fc1e">
+  <producedTypes>
+    <objectType typeId="5ff70c62-b945-4552-8e67-c2868b866695" valueTypeId="64f701bb-a633-406b-ad4f-d563f654912a"/>
+    <refType typeId="a8079354-19ab-47d7-834f-4c8344b93aa4" valueTypeId="cba17e13-a843-4098-b1a4-95ac5d3978e1"/>
+    <selectionType typeId="2331bf06-e8bd-4ea3-8a9b-981c01870645" valueTypeId="77279a6d-d26c-4909-9dc9-2ffa1c4a3690"/>
+    <listType typeId="88592d3d-4b7b-4224-aab0-4f7e85f34600" valueTypeId="81ce2162-01e2-4300-8c6f-88804fc4ea0c"/>
+    <managerType typeId="b14c7a32-aa68-4e92-a973-824eb477f14c" valueTypeId="a3ead447-e7c4-45dd-9bae-27f1c52c11fb"/>
+  </producedTypes>
+  <name>ДолжностиОКПДТР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности ОКПДТР</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДолжностиОКПДТР.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0ab7dd01-4f2a-48af-a9f3-69a40c822ad4">
+    <name>КодОКПДТР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ОКПДТР</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1548b15-4f4a-4043-82f4-721180a3bcf1">
+    <name>КатегорияОКПДТР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория ОКПДТР</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa4c5e71-affc-4d62-b152-2acf5f778f6c">
+    <name>КодОКЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ОКЗ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

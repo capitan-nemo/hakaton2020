@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f42a1a8d-f10f-466a-a9a6-6464251329c7">
+  <producedTypes>
+    <objectType typeId="330e6687-9146-48ed-a104-d0e62118eea9" valueTypeId="0f14c3ac-b5e9-4abb-b0e1-cfa165855105"/>
+    <refType typeId="100076b7-37e7-42a9-ba4e-4bd99f1e3ba7" valueTypeId="5a98008b-8fc4-4df0-9242-49e350c90595"/>
+    <selectionType typeId="c314cfa6-b72f-4903-982a-b701466d8713" valueTypeId="646a9c06-a39c-4e67-a6cb-80289013f74f"/>
+    <listType typeId="d5cf85e0-b5c5-4216-9364-8a938d2c3b4b" valueTypeId="81b7d98d-5fcc-40e1-885f-708b484e6bca"/>
+    <managerType typeId="14f8a363-79c9-4541-8cd6-dd25a5e9fe1d" valueTypeId="37b25fa4-9c78-4bed-b174-fdc39901f591"/>
+  </producedTypes>
+  <name>РазделыОКВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общероссийский классификатор видов экономической деятельности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РазделыОКВЭД.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РазделыОКВЭД.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

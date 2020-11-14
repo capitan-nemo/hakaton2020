@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdbbe94c-f837-4d27-9d97-360adc2558e5">
+  <producedTypes>
+    <objectType typeId="c3e0df03-e055-4fdc-8782-4b6664cb3623" valueTypeId="10447b30-2b0c-4403-a873-4ff97074853e"/>
+    <managerType typeId="1275babe-291c-43f6-a426-7ada70d1f1ea" valueTypeId="ba51de55-fe7a-44e4-8e9c-4b1f3ecec6d7"/>
+  </producedTypes>
+  <name>БалансТрудовыхРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Баланс трудовых ресурсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.БалансТрудовыхРесурсов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="01e36034-af17-4a82-8faa-62e831f954b2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

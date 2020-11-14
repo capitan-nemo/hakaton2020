@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6646de31-2f32-4735-a2c7-a552ccf82285">
+  <producedTypes>
+    <selectionType typeId="ed65611f-0e4a-4df6-8aff-94796c5af644" valueTypeId="43999598-72d7-4a1b-ad08-4616a98ace29"/>
+    <listType typeId="6fdf1e2f-1824-4d65-81c7-37830e3fe191" valueTypeId="1729310c-086a-4145-9f4f-41fefecff4fa"/>
+    <managerType typeId="5f3a71c9-535c-4d51-bee1-6cb581700301" valueTypeId="7b65687b-148c-45e5-acaa-dbf01a0c5d73"/>
+    <recordSetType typeId="a84bc268-1452-46ec-97c2-bdb53fab1218" valueTypeId="079bdb5b-f826-49f9-b947-8f7249a2f402"/>
+    <recordKeyType typeId="cf19ce3b-4db2-4b7d-87fc-f805d74dd44b" valueTypeId="35b31e27-0701-42e4-beff-a4f9672a4b1b"/>
+    <recordType typeId="191159c1-4144-4f5a-b5da-700e27d70b69" valueTypeId="e3a28df8-8cb0-4d48-b18e-519fbf5cafcc"/>
+    <recordManagerType typeId="1c9b019e-52b8-41ed-a527-99eb1a03102e" valueTypeId="1f2539c1-69aa-45aa-9704-1a9f2ad027d0"/>
+  </producedTypes>
+  <name>ВыпускУчрежденийПрофобразования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выпуск учреждений профобразования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="adf9a6b3-da78-4468-b1cc-cdb94847c068">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="29d74629-11de-40c9-b39e-2ca8a8c76a5a">
+    <name>ДолжностьОКПДТР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность ОКПДТР</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДолжностиОКПДТР</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6d90924d-9057-42de-99ae-e7dac466ab8d">
+    <name>РазделОКВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел ОКВЭД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РазделыОКВЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

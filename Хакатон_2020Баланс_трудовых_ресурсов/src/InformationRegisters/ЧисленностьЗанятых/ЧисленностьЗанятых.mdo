@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0879bc53-c569-45fc-97a6-3c8be5f8f23d">
+  <producedTypes>
+    <selectionType typeId="fad81128-5e87-43f7-952d-b6e147d90793" valueTypeId="ce792701-f42f-4626-93e9-1d3be1c2101e"/>
+    <listType typeId="b6f4ab12-e8f2-4781-a310-9230cb4e5a1c" valueTypeId="0776238a-fa26-4392-9f6e-393538a3b807"/>
+    <managerType typeId="565976cd-1899-4f31-8e0a-949e945dd5ee" valueTypeId="f5aa6a13-6bfb-4451-8294-57727be3aea7"/>
+    <recordSetType typeId="700fe5aa-c057-42fe-bc70-e1f7429f2c4d" valueTypeId="bf64c803-9784-41cc-9f9e-e916a04934f6"/>
+    <recordKeyType typeId="66bfa507-ffc5-49b1-b3e7-e114ea24fe39" valueTypeId="c8cd80aa-615c-49bd-9982-f9e3bc69284c"/>
+    <recordType typeId="edf6439b-a858-4348-a1ac-90f6f72fbf5a" valueTypeId="276fd316-9a11-4a5c-a6f5-0523c94c22c8"/>
+    <recordManagerType typeId="a1fd1f43-335e-4a0e-82c7-4c6e038af17b" valueTypeId="76a5f9ac-ba39-4ea6-8eae-1ce1c124b06e"/>
+  </producedTypes>
+  <name>ЧисленностьЗанятых</name>
+  <synonym>
+    <key>ru</key>
+    <value>Численность занятых</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="37604e41-2584-4774-89b2-be4f588f195a">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3282ad62-184b-4473-bee6-9f215c165da8">
+    <name>ДолжностьОКПДТР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность ОКПДТР</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДолжностиОКПДТР</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cc73bf14-272a-49f9-aa57-65eed7a012a2">
+    <name>РазделОКВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел ОКВЭД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РазделыОКВЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

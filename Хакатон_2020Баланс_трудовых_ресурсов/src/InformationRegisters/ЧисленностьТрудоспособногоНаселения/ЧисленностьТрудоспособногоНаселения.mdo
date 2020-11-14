@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e3183ba-03e2-4530-8f46-e88f376f1b04">
+  <producedTypes>
+    <selectionType typeId="a5dac081-ec7d-45a3-9b90-8f942ed57727" valueTypeId="f283c8f7-9bd3-4b92-8085-5bf742775602"/>
+    <listType typeId="8943f248-fcc0-4e18-a3e7-670c243f5da2" valueTypeId="78ba1411-8aa3-4e7d-88e5-a2359d1a08fb"/>
+    <managerType typeId="3a57a2c5-6cbc-4d25-afed-c98c392ed5c6" valueTypeId="00504326-0c80-4e4d-b1ca-778ea6823611"/>
+    <recordSetType typeId="78f0a3bb-4b12-421a-add3-fc4068e4b9e9" valueTypeId="534e9b42-6067-48c1-b367-08afdd731847"/>
+    <recordKeyType typeId="9c25aa59-23b2-456f-ba33-6306d14335bd" valueTypeId="ec6a46b8-ad8f-49f2-a353-90ebef74ce19"/>
+    <recordType typeId="b41e1e91-7992-4d02-824b-401b3b477728" valueTypeId="85587ae4-b20f-45e2-b63d-73c26fb42971"/>
+    <recordManagerType typeId="867a27c7-d3d0-4411-ad59-915d8563508d" valueTypeId="f89ef304-a7cb-457a-a78d-fd94d2332a30"/>
+  </producedTypes>
+  <name>ЧисленностьТрудоспособногоНаселения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Численность трудоспособного населения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0ad190c7-f816-4db9-bba1-2e43ef088aae">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b1eaac1b-2d05-4b5c-b56a-c70f0a05567c">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПолФизическогоЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пол физического лица</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>1196b917-6a38-4794-af57-bf214317000c.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

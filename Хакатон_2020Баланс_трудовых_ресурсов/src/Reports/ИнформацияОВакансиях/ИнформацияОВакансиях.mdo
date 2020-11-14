@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd1d7cc0-73e0-4eef-9322-7a4001ae9157">
+  <producedTypes>
+    <objectType typeId="d177748d-d791-4ba1-997f-fa3da32b5e9e" valueTypeId="42b360d4-969a-49c0-b4f0-0ea422672a28"/>
+    <managerType typeId="25978fb4-bc1e-40a3-80ea-1bdd4101e470" valueTypeId="ccd4b276-02f2-49e7-a7a4-9cb0ba963d06"/>
+  </producedTypes>
+  <name>ИнформацияОВакансиях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация о вакансиях</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИнформацияОВакансиях.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="5e9eb4fd-7bb1-4962-a3c2-3de9bcff71bb">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

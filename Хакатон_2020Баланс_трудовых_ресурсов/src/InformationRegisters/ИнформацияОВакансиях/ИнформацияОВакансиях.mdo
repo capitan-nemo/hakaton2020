@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f750979-1689-4caa-a050-5515d5d7b3a3">
+  <producedTypes>
+    <selectionType typeId="6c712b53-1736-455c-9dbd-c7bf51d502be" valueTypeId="d765f5e2-a5c2-49b1-be96-44cce9a3752e"/>
+    <listType typeId="e148f77b-8601-4037-bfec-0f70799fae2a" valueTypeId="1894dde7-5e6b-4cef-9f45-61d9772212f4"/>
+    <managerType typeId="affe39ab-5f0c-4214-a661-985767e8d319" valueTypeId="2037070a-75fd-47ec-8976-628900ab552e"/>
+    <recordSetType typeId="8ab54df7-3f65-4e56-8d84-0a1510d64718" valueTypeId="2d7a016f-ecce-47d9-91ff-26e5acfbe491"/>
+    <recordKeyType typeId="8a566e6b-b9a2-44f2-80b3-968694545dde" valueTypeId="77126c90-b03b-4dfe-bdae-20bcd9e9efa4"/>
+    <recordType typeId="cc51c8da-2a48-42d9-8a85-37cf09d700a2" valueTypeId="1e0714bf-d654-4a74-baf0-268109c2a9cd"/>
+    <recordManagerType typeId="fbed8630-1c23-47e8-a783-c7a47ef9169c" valueTypeId="ce0a7c08-88d1-4016-b383-5d9af504585c"/>
+  </producedTypes>
+  <name>ИнформацияОВакансиях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация о вакансиях</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="c833fc21-d611-4d6f-8cff-7daa60676eb8">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="34fb24c9-3315-4326-9ce7-86a0f85be749">
+    <name>ДолжностьОКПДТР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность ОКПДТР</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДолжностиОКПДТР</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2ef12b1a-b52a-4a9f-9a9a-206f684bab6c">
+    <name>РазделОКВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел ОКВЭД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РазделыОКВЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a47a7cc5-e3c0-4633-9802-d9247a4140cb">
+    <name>ИсточникИнформацииОЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник информации о занятости</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникиИнформацииОЗанятости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

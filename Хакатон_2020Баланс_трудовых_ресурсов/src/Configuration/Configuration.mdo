@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d86a35de-fbf8-4805-8ce5-b92ea7009d05">
+  <name>БалансТрудовыхРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Баланс трудовых ресурсов</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="78824cd4-ad42-48f5-a5b4-21c9915606a4"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7f93c225-3c57-4660-ac3d-3de4f9d87b59"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="ca9ea341-a94a-41e9-8a7b-557514eb38e2"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4e6ae06c-ae8f-4bec-a606-e9769b5fe08c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d745f24f-8255-48cd-9716-f288733694a3"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="dcc0bd5a-0108-4669-b6bd-1de397b9ba5b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="f23b6510-c2f0-4f5f-a0c4-98ffcd551ff5"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Баланс трудовых ресурсов</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Обработка и хранение информации о качественных и количественных
+характеристиках предложения рабочей силы на региональном рынке труда</value>
+  </detailedInformation>
+  <logo/>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="96d68096-7633-4a19-a7b9-dd986963779f">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ТрудовыеРесурсы</subsystems>
+  <subsystems>Subsystem.СправочнаяИнформация</subsystems>
+  <subsystems>Subsystem.Сервис</subsystems>
+  <commonPictures>CommonPicture.Расчеты</commonPictures>
+  <commonPictures>CommonPicture.БизнесПроцессы</commonPictures>
+  <commonPictures>CommonPicture.Сервис</commonPictures>
+  <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
+  <catalogs>Catalog.ДолжностиОКПДТР</catalogs>
+  <catalogs>Catalog.РазделыОКВЭД</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
+  <catalogs>Catalog.ИсточникиИнформацииОЗанятости</catalogs>
+  <enums>Enum.ПолФизическогоЛица</enums>
+  <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.БалансТрудовыхРесурсов</reports>
+  <reports>Report.ИнформацияОБезработных</reports>
+  <reports>Report.ИнформацияОВакансиях</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаКлассификаторов</dataProcessors>
+  <dataProcessors>DataProcessor.ЭлектронноеВзаимодействие</dataProcessors>
+  <dataProcessors>DataProcessor.УправлениеПользователями</dataProcessors>
+  <informationRegisters>InformationRegister.ИнформацияОБезработных</informationRegisters>
+  <informationRegisters>InformationRegister.ИнформацияОВакансиях</informationRegisters>
+  <informationRegisters>InformationRegister.ВыпускУчрежденийПрофобразования</informationRegisters>
+  <informationRegisters>InformationRegister.ЧисленностьЗанятых</informationRegisters>
+  <informationRegisters>InformationRegister.ЧисленностьТрудоспособногоНаселения</informationRegisters>
+</mdclass:Configuration>

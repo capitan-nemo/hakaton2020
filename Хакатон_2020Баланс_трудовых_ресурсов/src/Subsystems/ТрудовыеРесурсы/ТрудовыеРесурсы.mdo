@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bd0554b-6d7c-422a-8f0d-8e1431904a18">
+  <name>ТрудовыеРесурсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудовые ресурсы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Расчеты</picture>
+  </picture>
+  <content>Catalog.ДолжностиОКПДТР</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>InformationRegister.ИнформацияОБезработных</content>
+  <content>InformationRegister.ЧисленностьЗанятых</content>
+  <content>InformationRegister.ИнформацияОВакансиях</content>
+  <content>InformationRegister.ВыпускУчрежденийПрофобразования</content>
+  <content>InformationRegister.ЧисленностьТрудоспособногоНаселения</content>
+  <content>Report.УниверсальныйОтчет</content>
+  <content>Report.БалансТрудовыхРесурсов</content>
+  <content>Report.ИнформацияОВакансиях</content>
+  <content>Report.ИнформацияОБезработных</content>
+</mdclass:Subsystem>
